@@ -1,77 +1,76 @@
-/* {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat979.gif), auto;}*/
 html{
-	cursor: url(darkPointer.cur), auto !important;
+	cursor: url(redPointer.cur), auto !important;
 }
-
-/* {cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur205.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur205.png), auto !important;} /* End http://www.cursors-4u.com */
-
 body {
-  background-color: Black;
+  background-color: PowderBlue;
   font-size: 18px;
+  font-family: DFKai-sb;
 }
 h1 {
-  cursor: url(darkText.cur), auto;
-  color: White;
-  font-family: DFKai-sb;
+  cursor: url(redText.cur), auto;
+  color: black;
 }
 h2 {
-  cursor: url(darkText.cur), auto;
-  color: red;
-  font-family: DFKai-sb;
+  cursor: url(redText.cur), auto;
+  color: Tomato;
 }
 
 h3 {
-  cursor: url(darkText.cur), auto;
-  color: yellow;
-  font-family: DFKai-sb;
-}
-
-a {
-  color: lightgreen;
-  font-family: DFKai-sb;
+  cursor: url(redText.cur), auto;
+  color: DarkGreen;
 }
 
 p {
-  cursor: url(darkText.cur), auto;
-  color: lightgreen;
-  font-family: DFKai-sb;
-  font-size: 18px;
+  cursor: url(redText.cur), auto;
+  color: black;
 }
 
 pre {
-  cursor: url(darkText.cur), auto;
-  color: lightgreen;
+  cursor: url(redText.cur), auto;
+  color: black;
   font-family: DFKai-sb;
-  font-size: 18px;
 }
-b{
+a {
+  cursor: url(Associate.cur), auto;
   font-family: DFKai-sb;
-  color: aqua
-  
 }
-mark{
-  font-family: DFKai-sb;
-  color: gold;
-  background-color: black;
-  
+
+a:link {
+  color: orange;
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited {
+  color: coral;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: Fuchsia;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 ol {
-  color: lightgreen;
-  font-family: DFKai-sb;
+  cursor: url(redText.cur), auto;
+  color: black;
 }
-
-.bar  {
-  cursor: pointer;
-  cursor: url(01cogie.ani) 2 2, pointer;
-} 
-
+ul {
+  cursor: url(redText.cur), auto;
+  color: black;
+}
 table, th, td {
-  cursor: url(darkText.cur), auto;
-  border: 1px solid white;
+  cursor: url(redText.cur), auto;
   border-collapse: collapse;
   border-spacing: 15px;
-  color: white;
-  font-family: DFKai-sb;
+  color: red;
   font-size: 20px;
+}
+table{
+  width: 60%;
 }
