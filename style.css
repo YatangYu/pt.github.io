@@ -4,8 +4,8 @@ html{
 
 body {
   background-color: Black;
-  line-height: 30px;
   font-size: 18px;
+  line-height: 30px;
   font-family: DFKai-sb;
 }
 h1 {
@@ -72,7 +72,6 @@ mark{
 }
 
 ol {
-  cursor: url(Text.cur), auto;
   color: lightgreen;
 }
 ul {
